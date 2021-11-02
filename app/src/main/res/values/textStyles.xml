@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="white_text_style">
+        <item name="android:textColor">@color/text_style_color</item>
+    </style>
+
+    <style name="white_text_style_15" parent="white_text_style">
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+
+    <style name="white_text_style_16" parent="white_text_style">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="secondary_text_style_15" parent="white_text_style_15">
+        <item name="android:textColor">@color/secondary_title_color</item>
+    </style>
+
+</resources>
