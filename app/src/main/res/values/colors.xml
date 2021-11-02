@@ -4,5 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="colorPrimary">#FFFFFFFF</color>
 
+    <color name="app_background_color">#062635</color>
+    <color name="progress_background">#7c000000</color>
+    <color name="text_style_color">#ffffff</color>
+    <color name="secondary_title_color">#7496A5</color>
+    <color name="blue_style_color">#01425F</color>
 
 </resources>

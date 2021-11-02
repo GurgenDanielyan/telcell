@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //TextSizes
+    <dimen name="text_size_15">15dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+
+    <dimen name="progress_size">70dp</dimen>
+
+    // Vod
+    <dimen name="vod_thumbnail_title_top">3dp</dimen>
+    <dimen name="vod_thumbnail_corner_radius">3dp</dimen>
+    <dimen name="vod_list_horizontal_spacing">12dp</dimen>
+    <dimen name="vod_list_vertical_spacing">16dp</dimen>
+    <dimen name="vod_list_bottom_padding">30dp</dimen>
+
+    <dimen name="vod_list_progress_layout_height">37dp</dimen>
+    <dimen name="vod_list_progress_height">30dp</dimen>
+
+
+</resources>
