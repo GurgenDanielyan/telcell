@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moviesContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/vodListRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/vod_list_horizontal_spacing"
+        android:paddingTop="@dimen/vod_list_horizontal_spacing"
+        android:paddingEnd="@dimen/vod_list_horizontal_spacing"
+        android:paddingBottom="@dimen/vod_list_bottom_padding"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="5"
+        tools:listitem="@layout/item_vod_list" />
+
+</FrameLayout>
